@@ -1,0 +1,96 @@
+body{
+	background: linear-gradient(#EBFFFF, #D1CBFE);
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#EBFFFF), to(#D1CBFE));
+	background: -moz-linear-gradient(#EBFFFF, #D1CBFE);
+	-pie-background: linear-gradient(#EBFFFF, #D1CBFE);
+	behavior: url(PIE.htc);
+	font-family: 'Indie Flower', cursive;
+}
+.navbar-brand {
+    position: relative;
+    background: url("https://upload.wikimedia.org/wikipedia/he/thumb/2/2b/Hapoel_haifa.png/250px-Hapoel_haifa.png") no-repeat;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+}
+.navbar , navbar-default{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	font-size: 15px;
+	font-weight: bold;
+}
+#cycler{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+
+}
+#cycler img{
+	position:absolute;
+	z-index:1;
+	width: 500px;
+	height: 500px;
+	border-width: 5px;
+	border-color: #DED2C7;
+	border-style: solid;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#cycler img.active{z-index:3}
+.tab{
+	padding-left: 2%;
+	display: inline-block;
+
+}
+p{
+	padding-left: 2%;
+	font-weight: bolder;
+}
+h3{
+	text-align: center;
+	text-shadow: 2px 4px 2px #FAC4CB;
+	margin-bottom: 5%;
+	font-size: 500%;
+}
+#contactMail{
+	font-size: 20px;
+	margin:0 5%;
+	width: 50%;
+
+}
+#barcode{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.content{
+	/*float: center;*/
+	margin-bottom: 200px; 
+}
+#playlist{
+	margin:0 auto;
+	width: 40%;
+}
+#like{
+	padding-left: 5%;
+}
+input[type="text"]{
+	border-radius: 8px 12px;
+	border-color: transparent;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 10px;
+}
+#facebook{
+	text-align: center;
+
+}
+section{
+	font-size: 20px;
+}
+#spa p::first-line{
+	text-decoration-line: underline;
+}
+b{
+	text-decoration-line: underline;
+}
